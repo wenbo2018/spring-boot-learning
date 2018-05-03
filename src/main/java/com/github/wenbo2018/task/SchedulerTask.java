@@ -13,7 +13,8 @@ import java.util.Date;
  */
 @Component
 public class SchedulerTask {
-    private Logger logger= LoggerFactory.getLogger(SchedulerTask.class);
+
+    private Logger logger = LoggerFactory.getLogger(SchedulerTask.class);
     private static final SimpleDateFormat dateFormat = new SimpleDateFormat("HH:mm:ss");
 
     @Scheduled(fixedRate = 1000)

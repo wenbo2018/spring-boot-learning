@@ -14,7 +14,10 @@ public class MyApplicationFailedEventListener implements ApplicationListener<App
         handleThrowable(throwable);
     }
 
-    /*处理异常*/
+    /***
+     * 处理异常
+     * @param throwable
+     */
     private void handleThrowable(Throwable throwable) {
 
     }
