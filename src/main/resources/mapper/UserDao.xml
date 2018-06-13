@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.github.UserDao">
+<mapper namespace="com.github.wenbo2018.dao.UserDao">
 
-    <resultMap id="BaseResultMap" type="com.github.User">
+    <resultMap id="BaseResultMap" type="com.github.wenbo2018.dto.User">
         <result column="Id" property="id" jdbcType="INTEGER" />
         <result column="UserName" property="username" jdbcType="VARCHAR" />
         <result column="PassWord" property="password" jdbcType="VARCHAR" />
@@ -12,7 +12,7 @@
     </resultMap>
 
 
-    <insert id="add" parameterType="com.github.User" >
+    <insert id="add" parameterType="com.github.wenbo2018.dto.User" >
         insert into User (
         UserName,
         PassWord,
@@ -37,7 +37,7 @@
         SELECT * FROM User WHERE Id=#{id}
     </select>
 
-    <update id="update" parameterType="com.github.User">
+    <update id="update" parameterType="com.github.wenbo2018.dto.User">
         UPDATE  User SET  UserName=#{username}, Password=#{password},Au=#{au},Email=#{email}
     </update>
 
