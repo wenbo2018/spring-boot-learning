@@ -14,6 +14,7 @@ import java.util.Iterator;
  * Created by shenwenbo on 2017/4/14.
  */
 public class MyApplicationEnvironmentPreparedEvent implements ApplicationListener<ApplicationEnvironmentPreparedEvent> {
+
     private static Logger logger= LoggerFactory.getLogger(MyApplicationEnvironmentPreparedEvent.class);
     @Override
     public void onApplicationEvent(ApplicationEnvironmentPreparedEvent event) {
