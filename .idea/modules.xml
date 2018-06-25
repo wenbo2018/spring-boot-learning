@@ -70,7 +70,12 @@
       <module fileurl="file://$PROJECT_DIR$/../incubator-dubbo/dubbo-test/dubbo-test-examples/dubbo-test-examples.iml" filepath="$PROJECT_DIR$/../incubator-dubbo/dubbo-test/dubbo-test-examples/dubbo-test-examples.iml" />
       <module fileurl="file://$PROJECT_DIR$/../incubator-dubbo/dubbo-test/dubbo-test-integration/dubbo-test-integration.iml" filepath="$PROJECT_DIR$/../incubator-dubbo/dubbo-test/dubbo-test-integration/dubbo-test-integration.iml" />
       <module fileurl="file://$PROJECT_DIR$/../incubator-dubbo/dubbo-test/dubbo-test-compatibility/dubbo-test-spring3/dubbo-test-spring3.iml" filepath="$PROJECT_DIR$/../incubator-dubbo/dubbo-test/dubbo-test-compatibility/dubbo-test-spring3/dubbo-test-spring3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../spring-cloud/eureka-client-service-provider/eureka-client.iml" filepath="$PROJECT_DIR$/../spring-cloud/eureka-client-service-provider/eureka-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../spring-cloud/eureka-client-service-invoker/eureka-client-service-invoker.iml" filepath="$PROJECT_DIR$/../spring-cloud/eureka-client-service-invoker/eureka-client-service-invoker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../spring-cloud/eureka-client-service-provider/eureka-client-service-provider.iml" filepath="$PROJECT_DIR$/../spring-cloud/eureka-client-service-provider/eureka-client-service-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../spring-cloud/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/../spring-cloud/eureka-server/eureka-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-learning.iml" filepath="$PROJECT_DIR$/spring-boot-learning.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../spring-cloud/spring-cloud.iml" filepath="$PROJECT_DIR$/../spring-cloud/spring-cloud.iml" />
     </modules>
   </component>
 </project>

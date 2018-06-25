@@ -1,6 +1,7 @@
 package com.github.wenbo2018.concurrent;
 
-import com.sun.org.apache.bcel.internal.generic.NEW;
+
+import sun.jvmstat.perfdata.monitor.PerfStringVariableMonitor;
 
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
@@ -17,24 +18,8 @@ public class Useing {
 
 
     public static void main(String[] args) throws InterruptedException {
-        for (int i = 0; i < 10; i++) {
-            new Thread(() -> {
-                incer();
-            }).start();
-        }
-
-        Thread.sleep(1000);
-
-        System.out.println(count);
-
-    }
-
-    private static void incer() {
-        try {
-            lock.lock();
-            count++;
-        } finally {
-            lock.unlock();
+        for (int i = 0; i < 100; i++) {
+            System.out.println(i);
         }
     }
 }

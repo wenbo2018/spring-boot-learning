@@ -8,14 +8,14 @@ import java.util.concurrent.locks.ReentrantLock;
  */
 public class ConditionUseing {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
         final ReentrantLock reentrantLock = new ReentrantLock();
         final Condition condition = reentrantLock.newCondition();
 
         Thread thread = new Thread((Runnable) () -> {
             try {
                 reentrantLock.lock();
-                System.out.println("我要等一个新信号" );
+                System.out.println("我要等一个新信号");
                 condition.wait();
             } catch (InterruptedException e) {
                 e.printStackTrace();
@@ -34,12 +34,14 @@ public class ConditionUseing {
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
-            condition.signalAll();
+            condition.signal();
             System.out.println("我发了一个信号！！");
             reentrantLock.unlock();
         }, "signalThread");
 
         thread1.start();
+
+        Thread.sleep(10000000);
     }
 
 }
