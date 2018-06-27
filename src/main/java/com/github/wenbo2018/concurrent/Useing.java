@@ -17,24 +17,9 @@ public class Useing {
 
 
     public static void main(String[] args) throws InterruptedException {
-        for (int i = 0; i < 10; i++) {
-            new Thread(() -> {
-                incer();
-            }).start();
-        }
-
-        Thread.sleep(1000);
-
-        System.out.println(count);
+        System.out.println(Integer.toBinaryString((1 >>> 16)));
 
     }
 
-    private static void incer() {
-        try {
-            lock.lock();
-            count++;
-        } finally {
-            lock.unlock();
-        }
-    }
+
 }
