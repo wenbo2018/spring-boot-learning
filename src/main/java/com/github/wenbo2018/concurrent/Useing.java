@@ -1,6 +1,7 @@
 package com.github.wenbo2018.concurrent;
 
-import com.sun.org.apache.bcel.internal.generic.NEW;
+
+import sun.jvmstat.perfdata.monitor.PerfStringVariableMonitor;
 
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
@@ -17,9 +18,8 @@ public class Useing {
 
 
     public static void main(String[] args) throws InterruptedException {
-        System.out.println(Integer.toBinaryString((1 >>> 16)));
-
+        for (int i = 0; i < 100; i++) {
+            System.out.println(i);
+        }
     }
-
-
 }
