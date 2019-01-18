@@ -1,6 +1,5 @@
 package com.github.wenbo2018.concurrent;
 
-import java.util.concurrent.atomic.AtomicInteger;
 import java.util.concurrent.atomic.AtomicStampedReference;
 
 /**
@@ -9,10 +8,11 @@ import java.util.concurrent.atomic.AtomicStampedReference;
 public class AtmicABAQuestion {
 
     static AtomicStampedReference<Integer> atomicStampedReference = new AtomicStampedReference(0, 0);
+
     public static void main(String[] args) throws InterruptedException {
         final int stamp = atomicStampedReference.getStamp();
         final Integer reference = atomicStampedReference.getReference();
-        System.out.println(reference+"============"+stamp);
+        System.out.println(reference + "============" + stamp);
         Thread t1 = new Thread(new Runnable() {
             @Override
             public void run() {
@@ -33,7 +33,6 @@ public class AtmicABAQuestion {
         t1.join();
         t2.start();
         t2.join();
-
         System.out.println(atomicStampedReference.getReference());
         System.out.println(atomicStampedReference.getStamp());
     }

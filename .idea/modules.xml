@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/../incubator-dubbo/dubbo-bootstrap/dubbo-bootstrap.iml" filepath="$PROJECT_DIR$/../incubator-dubbo/dubbo-bootstrap/dubbo-bootstrap.iml" />
       <module fileurl="file://$PROJECT_DIR$/../incubator-dubbo/dubbo-cluster/dubbo-cluster.iml" filepath="$PROJECT_DIR$/../incubator-dubbo/dubbo-cluster/dubbo-cluster.iml" />
       <module fileurl="file://$PROJECT_DIR$/../incubator-dubbo/dubbo-common/dubbo-common.iml" filepath="$PROJECT_DIR$/../incubator-dubbo/dubbo-common/dubbo-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../incubator-dubbo/dubbo-compatible/dubbo-compatible.iml" filepath="$PROJECT_DIR$/../incubator-dubbo/dubbo-compatible/dubbo-compatible.iml" />
       <module fileurl="file://$PROJECT_DIR$/../incubator-dubbo/dubbo-config/dubbo-config.iml" filepath="$PROJECT_DIR$/../incubator-dubbo/dubbo-config/dubbo-config.iml" />
       <module fileurl="file://$PROJECT_DIR$/../incubator-dubbo/dubbo-config/dubbo-config-api/dubbo-config-api.iml" filepath="$PROJECT_DIR$/../incubator-dubbo/dubbo-config/dubbo-config-api/dubbo-config-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/../incubator-dubbo/dubbo-config/dubbo-config-spring/dubbo-config-spring.iml" filepath="$PROJECT_DIR$/../incubator-dubbo/dubbo-config/dubbo-config-spring/dubbo-config-spring.iml" />
@@ -24,6 +25,8 @@
       <module fileurl="file://$PROJECT_DIR$/../incubator-dubbo/dubbo-filter/dubbo-filter.iml" filepath="$PROJECT_DIR$/../incubator-dubbo/dubbo-filter/dubbo-filter.iml" />
       <module fileurl="file://$PROJECT_DIR$/../incubator-dubbo/dubbo-filter/dubbo-filter-cache/dubbo-filter-cache.iml" filepath="$PROJECT_DIR$/../incubator-dubbo/dubbo-filter/dubbo-filter-cache/dubbo-filter-cache.iml" />
       <module fileurl="file://$PROJECT_DIR$/../incubator-dubbo/dubbo-filter/dubbo-filter-validation/dubbo-filter-validation.iml" filepath="$PROJECT_DIR$/../incubator-dubbo/dubbo-filter/dubbo-filter-validation/dubbo-filter-validation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../incubator-dubbo/dubbo-metrics/dubbo-metrics.iml" filepath="$PROJECT_DIR$/../incubator-dubbo/dubbo-metrics/dubbo-metrics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../incubator-dubbo/dubbo-metrics/dubbo-metrics-api/dubbo-metrics-api.iml" filepath="$PROJECT_DIR$/../incubator-dubbo/dubbo-metrics/dubbo-metrics-api/dubbo-metrics-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/../incubator-dubbo/dubbo-monitor/dubbo-monitor.iml" filepath="$PROJECT_DIR$/../incubator-dubbo/dubbo-monitor/dubbo-monitor.iml" />
       <module fileurl="file://$PROJECT_DIR$/../incubator-dubbo/dubbo-monitor/dubbo-monitor-api/dubbo-monitor-api.iml" filepath="$PROJECT_DIR$/../incubator-dubbo/dubbo-monitor/dubbo-monitor-api/dubbo-monitor-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/../incubator-dubbo/dubbo-monitor/dubbo-monitor-default/dubbo-monitor-default.iml" filepath="$PROJECT_DIR$/../incubator-dubbo/dubbo-monitor/dubbo-monitor-default/dubbo-monitor-default.iml" />
